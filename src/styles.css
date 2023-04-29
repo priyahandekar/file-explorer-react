@@ -1,0 +1,42 @@
+.folder-list {
+    display: flex;
+  }
+  
+  .nested {
+    padding: 5px;
+    margin: 5px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .img-name {
+    display: flex;
+    width: 150px;
+    align-items: center;
+  }
+  
+  span {
+    margin: 5px;
+  }
+  
+  .inputContainer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .inputContainer > span {
+    margin-top: 5px;
+  }
+  
+  .inputContainer__input {
+    margin: 6px 0 0px 0;
+    padding: 5px;
+    display: flex;
+    border: 1px solid lightgray;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
